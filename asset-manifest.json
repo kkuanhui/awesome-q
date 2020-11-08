@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/awesome-q/static/css/main.22fc7d12.chunk.css",
+    "main.js": "/awesome-q/static/js/main.fa9e3776.chunk.js",
+    "main.js.map": "/awesome-q/static/js/main.fa9e3776.chunk.js.map",
+    "runtime-main.js": "/awesome-q/static/js/runtime-main.dbbf2060.js",
+    "runtime-main.js.map": "/awesome-q/static/js/runtime-main.dbbf2060.js.map",
+    "static/css/2.1d146257.chunk.css": "/awesome-q/static/css/2.1d146257.chunk.css",
+    "static/js/2.12cc0127.chunk.js": "/awesome-q/static/js/2.12cc0127.chunk.js",
+    "static/js/2.12cc0127.chunk.js.map": "/awesome-q/static/js/2.12cc0127.chunk.js.map",
+    "index.html": "/awesome-q/index.html",
+    "static/css/2.1d146257.chunk.css.map": "/awesome-q/static/css/2.1d146257.chunk.css.map",
+    "static/css/main.22fc7d12.chunk.css.map": "/awesome-q/static/css/main.22fc7d12.chunk.css.map",
+    "static/js/2.12cc0127.chunk.js.LICENSE.txt": "/awesome-q/static/js/2.12cc0127.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbbf2060.js",
+    "static/css/2.1d146257.chunk.css",
+    "static/js/2.12cc0127.chunk.js",
+    "static/css/main.22fc7d12.chunk.css",
+    "static/js/main.fa9e3776.chunk.js"
+  ]
+}
