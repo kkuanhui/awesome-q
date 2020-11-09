@@ -9,8 +9,8 @@ function App() {
     <Fragment>
         <NavTabs>
 
-            <TabPage className="TabPage" label="Main Page" />
-            <TabPage className="TabPage" label="Tableau Page" />
+            <TabPage className="TabPage" label="Todo" />
+            <TabPage className="TabPage" label="Metrix" />
 
         </NavTabs>
     </Fragment>

@@ -20,7 +20,10 @@ class NavTabs extends React.Component{
         return(
             <div className="nav-tabs">
                 <ul className="tabs-ul">
-                    <li className="logo">Awesome Q</li>
+                    <li className="logo">
+                        <div className="logo-name">Awesome Q</div>
+                        <div className="logo-sub-name">Draggable Interactive enjoYable</div>
+                    </li>
                     {this.props.children.map((child) => {
                         return(
                             <Tab 

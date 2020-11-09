@@ -17,8 +17,15 @@ body {
 
 
 .logo{
-  font-size: 2rem;
   margin: auto 2rem;
+}
+
+.logo-name{
+  font-size: 1rem;
+}
+
+.logo-sub-name{
+  font-size: 0.5rem;
 }
 
 .nav-tab{
@@ -61,7 +68,7 @@ body {
 /* MyGrid container */
 .mygrid-container{
   padding: 0.5rem;
-  overflow: scroll;
+  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -121,4 +128,60 @@ body {
   font-size: 15px;
   margin: auto;
   margin-bottom: 2rem;
+}
+
+.ppp-bg-img-0{
+  background-image: url(./pictures/caerb\ information.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
+
+.ppp-bg-img-1{
+  background-image: url(./pictures/copq\ war\ room.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
+
+.ppp-bg-img-2{
+  background-image: url(./pictures/human\ resource.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
+
+.ppp-bg-img-3{
+  background-image: url(./pictures/oba\ sorting.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
+
+.ppp-bg-img-4{
+  background-image: url(./pictures/shipping\ constraint.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
+
+.ppp-bg-img-5{
+  background-image: url(./pictures/vlrr.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
+
+.ppp-bg-img-6{
+  background-image: url(./pictures/wbc.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
 }

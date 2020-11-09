@@ -1,4 +1,5 @@
 import React from "react";
+import vlrr from './pictures/vlrr.jpg';
 import _ from "lodash";
 import { Responsive, WidthProvider } from "react-grid-layout";
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
@@ -28,17 +29,8 @@ export default class ShowcaseLayout extends React.Component {
   generateDIV() {
     return _.map(this.state.layouts.lg, function (l, i) {
       return (
-        <div key={i} className={l.static ? "static" : ""}>
-          {l.static ? (
-            <span
-              className="text"
-              title="This item is static and cannot be removed or resized."
-            >
-              Static - {i}
-            </span>
-          ) : (
-            <span className="text">{i}</span>
-          )}
+        <div key={i}>
+          <div className={"ppp-bg-img-"+i}></div>
         </div>
       );
     });
@@ -86,11 +78,14 @@ ShowcaseLayout.defaultProps = {
   rowHeight: 30,
   onLayoutChange: function () {},
   cols: { lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 },
-  initialLayout: generateLayout()
+  initialLayout: generateLayout(),
+  vlrr: vlrr
 };
 
+
+
 function generateLayout() {
-  return _.map(_.range(0, 7), function (item, i) {
+  return _.map(["vlrr", 'wbc', 'sc', 'oba', 'hr', 'copq', 'aerb'], function (item, i) {
     var y = Math.ceil(Math.random() * 4) + 1;
     return {
       x: (_.random(0, 5) * 2) % 12,
@@ -98,7 +93,6 @@ function generateLayout() {
       w: 2,
       h: y,
       i: i.toString(),
-      static: Math.random() < 0.05
     };
   });
 }
