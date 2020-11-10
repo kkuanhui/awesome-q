@@ -85,7 +85,7 @@ ShowcaseLayout.defaultProps = {
 
 
 function generateLayout() {
-  return _.map(["vlrr", 'wbc', 'sc', 'oba', 'hr', 'copq', 'aerb'], function (item, i) {
+  return _.map(["vlrr", 'wbc', 'sc', 'oba', 'hr', 'copq', 'aerb', 'kpi'], function (item, i) {
     var y = Math.ceil(Math.random() * 4) + 1;
     return {
       x: (_.random(0, 5) * 2) % 12,

@@ -9,10 +9,11 @@ import {
   SidebarContent,
 } from 'react-pro-sidebar';
 
-import { MdWidgets, MdSystemUpdateAlt} from 'react-icons/md';
+import { MdWidgets} from 'react-icons/md';
 import {GoPlus} from 'react-icons/go';
 import {AiOutlineAreaChart, AiOutlineAlert, AiOutlineAliwangwang, AiOutlinePieChart, AiOutlineLaptop} from 'react-icons/ai'
-import {FcAddRow} from 'react-icons/fc'
+import {FcAddRow} from 'react-icons/fc';
+import {FaRegTrashAlt} from 'react-icons/fa';
 
 class Aside extends React.Component{
 
@@ -74,15 +75,15 @@ class Aside extends React.Component{
                                 prefix={<AiOutlineAlert />}>
                                 CoPQM2
                                 </MenuItem>
-                                <MenuItem suffix={<span className="icon red"><GoPlus /></span>}
+                                <MenuItem suffix={<span className="icon red"><FaRegTrashAlt /></span>}
                                 prefix={<AiOutlineAliwangwang />}>
                                 PCN
                                 </MenuItem>
-                                <MenuItem suffix={<span className="icon blue"><MdSystemUpdateAlt /></span>}
+                                <MenuItem suffix={<span className="icon green"><GoPlus /></span>}
                                 prefix={<AiOutlineLaptop />}>
                                 OBA/Sorting
                                 </MenuItem>
-                                <MenuItem suffix={<span className="icon red"><GoPlus /></span>}
+                                <MenuItem suffix={<span className="icon red"><FaRegTrashAlt /></span>}
                                 prefix={<AiOutlinePieChart />}>
                                 Human Resource
                                 </MenuItem>

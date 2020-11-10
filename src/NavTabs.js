@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './index.css';
 
 class NavTabs extends React.Component{

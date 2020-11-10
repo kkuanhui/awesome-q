@@ -185,3 +185,11 @@ body {
   background-repeat: no-repeat;
   background-size: contain, cover;
 }
+
+.ppp-bg-img-7{
+  background-image: url(./pictures/kpi\ bar.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
